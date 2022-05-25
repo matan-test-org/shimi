@@ -1,0 +1,170 @@
+[
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Bla",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "Bla",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Bla",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "Bla",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Bla",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "Bla",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Bla",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "Bla",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Bla",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "Bla",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Shimi",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "Shimi",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Shimi",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "Shimi",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Shimi",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "Shimi",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Shimi",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "Shimi",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Shimi",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "test",
+    "resource": "Shimi",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
