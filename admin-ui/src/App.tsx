@@ -17,10 +17,6 @@ import { ShimiList } from "./shimi/ShimiList";
 import { ShimiCreate } from "./shimi/ShimiCreate";
 import { ShimiEdit } from "./shimi/ShimiEdit";
 import { ShimiShow } from "./shimi/ShimiShow";
-import { Shimi2List } from "./shimi2/Shimi2List";
-import { Shimi2Create } from "./shimi2/Shimi2Create";
-import { Shimi2Edit } from "./shimi2/Shimi2Edit";
-import { Shimi2Show } from "./shimi2/Shimi2Show";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -67,14 +63,6 @@ const App = (): React.ReactElement => {
           edit={ShimiEdit}
           create={ShimiCreate}
           show={ShimiShow}
-        />
-        <Resource
-          name="Shimi2"
-          list={Shimi2List}
-          edit={Shimi2Edit}
-          create={Shimi2Create}
-          show={Shimi2Show}
-        />
       </Admin>
     </div>
   );
