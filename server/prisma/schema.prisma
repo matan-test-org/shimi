@@ -24,10 +24,5 @@ model Bla {
   id        String   @id @default(cuid())
   updatedAt DateTime @updatedAt
   users     User[]
-}
 
-model Shimi {
-  createdAt DateTime @default(now())
-  id        String   @id @default(cuid())
-  updatedAt DateTime @updatedAt
 }

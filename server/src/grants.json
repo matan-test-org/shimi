@@ -162,9 +162,4 @@
     "attributes": "*"
   },
   {
-    "role": "test",
-    "resource": "Shimi",
-    "action": "read:any",
-    "attributes": "*"
-  }
-]
+ 

@@ -63,7 +63,6 @@ const App = (): React.ReactElement => {
           edit={ShimiEdit}
           create={ShimiCreate}
           show={ShimiShow}
-        />
       </Admin>
     </div>
   );
